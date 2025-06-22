@@ -1,0 +1,11 @@
+{
+  "name": "mf-base",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "install:all": "pnpm install && pnpm -r install",
+    "dev": "pnpm -r dev",
+    "build": "pnpm -r build"
+  }
+}
